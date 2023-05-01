@@ -11,3 +11,145 @@ a {
 ul {
     list-style: none;
 }
+body {
+    background-color: beige;
+}
+header { 
+    position: relative;
+}
+.btn {
+    border: 1px solid black;
+    background-color: ghostwhite;
+    border-radius: 2px;
+    text-align: -webkit-center;
+}
+.btn:hover,
+.bnt:focus {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+#about {
+        text-align: center;
+}
+#target {
+    text-align: center;
+}
+#howto {
+    text-align: center;
+}
+#contacts {
+    text-align: center;
+}
+@media (max-width: 767px) {
+    #about {
+        margin-bottom: 30px;
+    }
+    .title {
+        margin-left: 27%;
+        margin-right: auto;
+    }
+.container-btn {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn {
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: ghostwhite;
+    border-radius: 2px;
+}
+.btn:not(:last-child) {
+    margin-right: 10px;
+}
+.btn:hover,
+.bnt:focus {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.candles {
+    width: 250px;
+    height: 200px;
+}
+.howto {
+    width: 250px;
+    height: 200px;
+}
+.analitic {
+    width: 250px;
+    height: 200px;
+}
+.worker {
+    margin-bottom: 30px;
+    margin-left: 7%;
+    width: 350px;
+    height: 250px;
+}
+.text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 107px;
+}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+.candles {
+width: 300px;
+height: 250px;
+}
+
+    .howto {
+width: 300px;
+height: 250px;
+    }
+
+    .analitic {
+width: 300px;
+height: 250px;
+    }
+
+    .worker {
+width: 300px;
+height: 250px;
+    }
+
+    .logo {
+width: 300px;
+height: 250px;
+    }
+}
+@media (min-width: 1200px) {
+.candles {
+width: 300px;
+height: 250px;
+}
+
+    .howto {
+width: 300px;
+height: 250px;
+    }
+
+    .analitic {
+width: 300px;
+height: 250px;
+    }
+
+    .worker {
+width: 300px;
+height: 250px;
+    }
+
+    .logo {
+width: 300px;
+height: 250px;
+    }
+}
