@@ -34,27 +34,27 @@ footer {
 }
 #scrollToTopBtn {
     display: none;
-    /* скрыть кнопку по умолчанию */
+
     position: fixed;
-    /* задать фиксированное положение кнопки */
+
     bottom: 20px;
     right: 20px;
     z-index: 99;
-    /* задать порядок слоев для кнопки */
+
     border: none;
-    /* удалить рамку кнопки */
+
     outline: none;
-    /* удалить обводку кнопки */
+
     background-color: #555;
-    /* задать цвет фона кнопки */
+
     color: white;
-    /* задать цвет текста кнопки */
+
     cursor: pointer;
-    /* задать стиль курсора при наведении на кнопку */
+
     padding: 10px;
-    /* задать отступы внутри кнопки */
+
     border-radius: 4px;
-    /* задать скругление углов кнопки */
+
 }
 
 #scrollToTopBtn:hover {
