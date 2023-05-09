@@ -80,6 +80,17 @@ footer {
     margin-right: 5px;
 }
 @media (max-width: 767px) {
+    .svg {
+        position: absolute;
+        display: flex;
+        right: 35%;
+        bottom: 15%;
+    }
+    .messenger {
+        margin-right: 15px;
+        width: 24px;
+        height: 24px;
+    }
     section {
         padding-left: 10px;
         padding-right: 10px;
@@ -176,6 +187,7 @@ footer {
     height: 107px;
 }
 .ctnr-footer {
+    position: relative;
     display: flex;
 }
 .footer-item {
@@ -187,6 +199,18 @@ footer {
 }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
+    .svg {
+            position: absolute;
+            display: flex;
+            right: 22%;
+            bottom: 37%;
+        }
+    
+        .messenger {
+            margin-right: 15px;
+            width: 40px;
+            height: 40px;
+        }
     body {
         font-size: 18px;
     }
@@ -292,6 +316,7 @@ footer {
     }
 
     .ctnr-footer {
+        position: relative;
         padding-left: 20px;
         padding-right: 20px;
         display: flex;
@@ -308,6 +333,18 @@ footer {
     }
 }
 @media (min-width: 1200px) {
+    .svg {
+            position: absolute;
+            display: flex;
+            right: 9%;
+            bottom: 40%;
+        }
+    
+        .messenger {
+            margin-right: 15px;
+            width: 40px;
+            height: 40px;
+        }
     section {
         padding-left: 50px;
         padding-right: 50px;
@@ -420,6 +457,7 @@ footer {
         }
     
         .ctnr-footer {
+            position: relative;
             padding-left: 20px;
             padding-right: 20px;
             display: flex;
