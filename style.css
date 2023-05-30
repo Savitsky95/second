@@ -92,21 +92,201 @@ footer {
     content: "•";
     margin-right: 5px;
 }
+@media (max-width : 380px){
+    body {
+        font-size: 12px;
+    }
+    header {
+        width: 100%
+    }
 
-@media (max-width: 413px) {
+    .svg {
+    display: flex;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    }
+
+    .messenger {
+        margin-right: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+    section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #about {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    #target {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    #howto {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .title {
+        margin-left: 31%;
+        margin-right: auto;
+    }
+
+    .container-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons {
+        margin-top: 50px;
+    }
+
+    .dot {
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 75px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        border: 1px solid black;
+        text-align: center;
+        color: #4d5ae5;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .btn-txt {
+        display: block;
+        color: black;
+    }
+
+    .btn-txt:active {
+        color: black;
+    }
+
+    .btn:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .btn:hover,
+    .bnt:focus {
+        background-color: gray;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-color: #4d5ae5;
+        color: #ffffff;
+    }
+
+        .candles {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 120px;
+            height: 120px;
+        }
+
+    .howto {
+        margin-bottom: 30px;
+        margin-left: 3%;
+        width: 300px;
+        height: 200px;
+    }
+
+    .analitic {
+        margin-bottom: 30px;
+        margin-left: 3%;
+        width: 300px;
+        height: 200px;
+    }
+
+    .worker {
+        margin-bottom: 30px;
+        margin-left: 3%;
+        width: 300px;
+        height: 200px;
+    }
+
+    .text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 107px;
+    }
+
+        .ctnr-footer {
+            position: relative;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .footer-item {
+            margin-bottom: 20px;
+        }
+    
+        .svg-footer {
+            flex-direction: column;
+            display: flex;
+            margin-left: 35%;
+            margin-right: 3px;
+        }
+    
+        .svg-ftr-item {
+            width: 13px;
+            height: 13px;
+            margin-bottom: 20px;
+        }
+    
+        #contacts {
+            margin-bottom: 30px;
+            display: block;
+        }
+    
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    
+        footer {
+            position: relative;
+        }
+}
+
+@media (min-width: 381px) and (max-width: 413px) {
+    body {
+        font-size: 13px;
+    }
     header {
         width: 102%
     }
 
     .svg {
-        position: absolute;
-        display: flex;
-        right: 5%;
-        top: 23%;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
     }
 
     .messenger {
-        margin-right: 15px;
+        margin-right: 0;
         width: 24px;
         height: 24px;
     }
@@ -142,8 +322,8 @@ footer {
     }
 
     .buttons {
-        margin-top: 12px;
-        margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     }
 
     .dot {
@@ -165,6 +345,7 @@ footer {
     }
 
     .btn-txt {
+        display: block;
         color: black;
     }
 
@@ -186,9 +367,11 @@ footer {
     }
 
     .candles {
-        margin-right: 6px;
-        width: 130px;
-        height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 120px;
     }
 
     .howto {
@@ -227,44 +410,53 @@ footer {
 
     .ctnr-footer {
         position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
         display: flex;
+        justify-content: space-between;
     }
 
     .footer-item {
-        margin-left: 20px;
         margin-bottom: 20px;
     }
 
     .svg-footer {
         flex-direction: column;
         display: flex;
-        position: absolute;
-        right: 60%;
-        top: 0.5%;
-    }
-
-    .footer-contact {
-        color: #333;
-        font-size: 14px;
+        margin-left:35%;
+        margin-right: 3px;
     }
 
     .svg-ftr-item {
-        width: 15px;
-        height: 15px;
-        margin-bottom: 22px;
+        width: 13px;
+        height: 13px;
+        margin-bottom: 20px;
     }
 
     #contacts {
         margin-bottom: 30px;
     }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    footer {
+        position: relative;
+    }
 }
 
 @media (min-width: 414px) and (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
     .svg {
-        position: absolute;
-        display: flex;
-        right: 9%;
-        top: 23%;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
     }
 
     .messenger {
@@ -304,7 +496,7 @@ footer {
     }
 
     .buttons {
-        margin-top: 30px;
+        margin-top: 40px;
         margin-bottom: 30px;
     }
 
@@ -327,6 +519,7 @@ footer {
     }
 
     .btn-txt {
+        display: block;
         color: black;
     }
 
@@ -348,9 +541,11 @@ footer {
     }
 
     .candles {
-        margin-right: 20px;
-        width: 130px;
-        height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 120px;
     }
 
     .howto {
@@ -387,42 +582,54 @@ footer {
         height: 107px;
     }
 
-    .ctnr-footer {
-        position: relative;
-        display: flex;
-    }
-
-    .footer-item {
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
-
-    .svg-footer {
-        flex-direction: column;
-        display: flex;
-        position: absolute;
-        right: 60%;
-        top: 0.5%;
-    }
-
-    .svg-ftr-item {
-        width: 15px;
-        height: 15px;
-        margin-bottom: 22px;
-    }
-
-    #contacts {
-        margin-bottom: 30px;
-    }
+                .ctnr-footer {
+                    position: relative;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+        
+                .footer-item {
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+                }
+        
+                .svg-footer {
+                    flex-direction: column;
+                    display: flex;
+                    margin-left: auto;
+                    margin-right: 2px;
+                }
+        
+                .svg-ftr-item {
+                    width: 13px;
+                    height: 13px;
+                    margin-bottom: 20px;
+                }
+        
+                #contacts {
+                    margin-bottom: 30px;
+                }
+        
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+        
+                footer {
+                    position: relative;
+                }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .svg {
-        position: absolute;
-        display: flex;
-        right: 3%;
-        bottom: 60%;
-    }
+            display: flex;
+            margin-left: 15px;
+            margin-right: 0;
+            margin-top: 60px;
+        }
 
     .messenger {
         margin-right: 15px;
@@ -478,6 +685,7 @@ footer {
     }
 
     .btn-txt {
+        display: block;
         color: black;
     }
 
@@ -499,8 +707,11 @@ footer {
     }
 
     .candles {
-        width: 250px;
-        height: 250px;
+        position: absolute;
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 200px;
     }
 
     .howto {
@@ -537,44 +748,53 @@ footer {
         height: 107px;
     }
 
-    .ctnr-footer {
-        position: relative;
-        padding-left: 20px;
-        padding-right: 20px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .footer-item {
-        margin-left: 20px;
-        margin-bottom: 50px;
-    }
-
-    .svg-footer {
-        flex-direction: column;
-        display: flex;
-        position: absolute;
-        right: 37%;
-        top: ;
-    }
-
-    .svg-ftr-item {
-        width: 20px;
-        height: 20px;
-        margin-bottom: 50px;
-    }
-
-    #contacts {
-        margin-bottom: 30px;
-    }
+        .ctnr-footer {
+            position: relative;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .footer-item {
+            margin-left: 20px;
+            margin-bottom: 50px;
+        }
+    
+        .svg-footer {
+            flex-direction: column;
+            display: flex;
+            margin-left: auto;
+            margin-right: 2px;
+        }
+    
+        .svg-ftr-item {
+            width: 20px;
+            height: 20px;
+            margin-bottom: 50px;
+        }
+    
+        #contacts {
+            margin-bottom: 30px;
+        }
+    
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    
+        footer {
+            position: relative;
+        }
 }
 
 @media (min-width: 1200px) {
     .svg {
-        position: absolute;
         display: flex;
-        right: 2%;
-        bottom: 60%;
+        margin-left: 15px;
+        margin-right: 0;
+        margin-top: 60px;
     }
 
     .messenger {
@@ -636,6 +856,7 @@ footer {
     }
 
     .btn-txt {
+        display: block;
         color: black;
     }
 
@@ -657,8 +878,11 @@ footer {
     }
 
     .candles {
-        width: 250px;
-        height: 250px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 200px;
     }
 
     .howto {
@@ -710,9 +934,8 @@ footer {
     .svg-footer {
         flex-direction: column;
         display: flex;
-        position: absolute;
-        right: 16%;
-        top: ;
+        margin-left: auto;
+        margin-right: 2px;
     }
 
     .svg-ftr-item {
@@ -724,4 +947,13 @@ footer {
     #contacts {
         margin-bottom: 30px;
     }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        footer {
+            position: relative;
+        }
+
 }
